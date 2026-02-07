@@ -94,6 +94,8 @@ export const HeroSection = ({
           src="/desk.png"
           alt="Desk"
           className="w-full h-full object-cover rounded-xl transition-transform duration-200 cursor-pointer"
+          width={350} // Base width for aspect ratio
+              height={310}
           style={{
             transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
           }}

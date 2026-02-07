@@ -48,11 +48,11 @@ export const SkillsSection = () => {
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, duration: 18, ease: "linear" }}
         >
-          {[...skills, ...skills].map((skill) => {
+          {[...skills, ...skills].map((skill, idx) => {
             const Icon = skill.icon;
             return (
               <div
-                key={skill.name}
+                key={idx}
                 className="flex flex-col items-center gap-2 transition hover:scale-110"
               >
                 <Icon

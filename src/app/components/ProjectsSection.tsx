@@ -20,6 +20,8 @@ export const ProjectsSection = () => {
             <Image
               src="/lumen-ai.png" // 👉 replace image later
               alt="Lumen AI"
+              width={400} // Base width for aspect ratio
+              height={110}
               className="w-full h-full object-cover hover:scale-105 transition duration-300"
             />
           </div>
@@ -73,6 +75,8 @@ export const ProjectsSection = () => {
             <Image
               src="/zenith-editor.png" // 👉 replace image later
               alt="Zenith Editor"
+              width={400} // Base width for aspect ratio
+              height={110}
               className="w-full h-full object-cover hover:scale-105 transition duration-300"
             />
           </div>

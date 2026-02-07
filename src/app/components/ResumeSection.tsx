@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export const ResumeSection = () => {
   return (
     <section>
@@ -14,6 +13,8 @@ export const ResumeSection = () => {
         <Image
           src="/My_resume.png"
           alt="Resume Preview"
+          width={700} // Base width for aspect ratio
+          height={550}
           className="w-full h-auto object-contain"
         />
       </div>

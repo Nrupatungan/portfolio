@@ -30,7 +30,7 @@ export const ContactSection = () => {
 
   return (
     <section>
-      <h2 className="title-halo text-3xl mb-10">Contact</h2>
+      <h2 className="title-halo text-3xl mb-10">Contact Me</h2>
 
       <form ref={formRef} onSubmit={sendEmail} className="max-w-xl space-y-6">
         <input
